@@ -11,12 +11,41 @@ body{
 .container{
   background-color: white;
   height: 90px;
+  line-height: 90px;
 }
 
-/* img{
+img{
   vertical-align: middle;
-} */
+}
 
 .title{
   font-size: 40px;
+}
+
+.container-nav{
+  background-color: white;
+  line-height: 70px;
+  height: 70px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+.container-nav .add-task{
+  padding: 8px 12px;
+  background-color: #47adf1;
+  color: white;
+  margin-left: 30px;
+  border: none;
+  border-radius: 8px;
+}
+
+.container-nav .add-section{
+  padding: 8px 12px;
+  background-color: white;
+  color: lightgray;
+  border-radius: 8px;
+  border: solid 1px lightgray;
+  vertical-align: middle;
 }
