@@ -58,6 +58,7 @@ img{
   margin: 0 auto;
   border-radius: 5px;
   margin-top: 3px;
+  padding-bottom: 30px;
 }
 
 .container-list ul{
@@ -71,6 +72,10 @@ img{
 .container-list ul{
   padding-left: 30px;
   font-size: 16px;
+}
+
+.container-list li{
+  padding-top: 20px;
 }
 
 .container-list .button-list{
@@ -101,3 +106,34 @@ img{
   font-size: 12px;
   border: none;
 }
+
+.container-list .button-list-orange{
+  background-color: #e79831;
+  color: white;
+  margin-top: 10px;;
+  border-radius: 15px;
+  padding: 8px;
+  font-size: 12px;
+  border: none;
+}
+
+.container-list .button-list-pink{
+  background-color: #d863a1;
+  color: white;
+  margin-top: 10px;;
+  border-radius: 15px;
+  padding: 8px;
+  font-size: 12px;
+  border: none;
+}
+
+.container-list .button-list-lime{
+  background-color: #b0c926;
+  color: white;
+  margin-top: 10px;;
+  border-radius: 15px;
+  padding: 8px;
+  font-size: 12px;
+  border: none;
+}
+
