@@ -6,6 +6,7 @@
 
 body{
   background-color: lightgray;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .container{
@@ -20,6 +21,8 @@ img{
 
 .title{
   font-size: 40px;
+  vertical-align: middle;
+  font-weight: 700;
 }
 
 .container-nav{
@@ -45,7 +48,56 @@ img{
   padding: 8px 12px;
   background-color: white;
   color: lightgray;
-  border-radius: 8px;
+  border-radius: 5px;
   border: solid 1px lightgray;
-  vertical-align: middle;
+}
+
+.list .container-list{
+  background-color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-top: 3px;
+}
+
+.container-list ul{
+  list-style-type: none;
+}
+
+.container-list h2{
+  padding-top: 30px;
+}
+
+.container-list ul{
+  padding-left: 30px;
+  font-size: 16px;
+}
+
+.container-list .button-list{
+  background-color: #47adf1;
+  color: white;
+  border-radius: 15px;
+  padding: 8px;
+  font-size: 12px;
+  border: none;
+}
+
+.container-list .button-list-purple{
+  background-color: #9c72e4;
+  color: white;
+  margin-top: 10px;;
+  border-radius: 15px;
+  padding: 8px;
+  font-size: 12px;
+  border: none;
+}
+
+.container-list .button-list-green{
+  background-color: #64c0a9;
+  color: white;
+  margin-top: 10px;;
+  border-radius: 15px;
+  padding: 8px;
+  font-size: 12px;
+  border: none;
 }
